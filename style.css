@@ -54,7 +54,6 @@ body {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	
 }
 
 input,
@@ -158,6 +157,10 @@ body {
 
 .navigation_item {
 	padding-right: 50px;
+}
+
+.navigation_text {
+	color: #000232;
 }
 
 html,
@@ -819,3 +822,7 @@ body {
 }
 
 /* FOOTTER */
+
+.iob {
+	color: #fff;
+}

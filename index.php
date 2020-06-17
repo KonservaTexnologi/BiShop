@@ -54,13 +54,13 @@ get_header();
                 </div>
 
                 <div class="info_order">
-                  <button class="info_order_btn">Заказать</button>
-                  <a href="#" class="info_order_txt">Узнать стоимость</a>
+                  <button class="info_order_btn"> <a class="iob" href="#calc">Заказать</a> </button>
+                  <a href="#calc" class="info_order_txt">Узнать стоимость</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="advantages">
+          <div class="advantages" id="advantages">
             <div class="container">
               <div class="advantages_body">
                 <div class="advantages_topText">
@@ -94,12 +94,12 @@ get_header();
                   </div>
                 </div>
                 <div class="advantages_btn">
-                  <button class="info_order_btn">Заказать</button>
+                  <button class="info_order_btn"> <a class="iob" href="#calc">Заказать</a> </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="rew">
+          <div class="rew" id="rew">
             <div class="container">
               <div class="rew_body">
                 <div class="rew_topText">
@@ -137,7 +137,7 @@ get_header();
               </div>
             </div>
           </div>
-          <div class="gallery">
+          <div class="gallery" id="gallery">
             <div class="container">
               <div class="gallerry_body">
                 <div class="gallery_topText">Галерея</div>
@@ -155,7 +155,7 @@ get_header();
               </div>
             </div>
           </div>
-          <div class="calc">
+          <div class="calc" id="calc">
             <div class="container">
               <div class="calc_body">
                 <div class="calc_topText">

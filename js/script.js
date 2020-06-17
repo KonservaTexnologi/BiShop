@@ -1,3 +1,5 @@
+// SLIDER
+
 $('.rew_slider').slick({
 	infinite: true,
 	slidesToShow: 3,
@@ -9,6 +11,10 @@ $('.gallery_slider').slick({
 	slidesToShow: 3,
 	slidesToScroll: 3
 });
+
+// SLIDER
+
+// КАЛЬКУЛЯТОР
 
 function calc() {
 	var l = document.getElementById('l1').value; // см
@@ -25,10 +31,26 @@ function calc() {
 	t.innerText = parseInt(cost.toFixed(2)) + parseInt(del) + 'руб.';
 }
 
-	document.ondragstart = prohibit;//запрещаем перетаскивание
-	document.onselectstart = prohibit;//запрещаем выделение
-	document.oncontextmenu = prohibit;//запрещаем клик правой кнопкой
-		function prohibit() {
-			return false;//предотвращает все эти события
-		}
-	
+// КАЛЬКУЛЯТОР
+
+// ЗАПРЕТ ВЫДЕЛЕНИЯ
+
+document.ondragstart = prohibit; //запрещаем перетаскивание
+document.onselectstart = prohibit; //запрещаем выделение
+document.oncontextmenu = prohibit; //запрещаем клик правой кнопкой
+function prohibit() {
+	return false; //предотвращает все эти события
+}
+
+// ЗАПРЕТ ВЫДЕЛЕНИЯ
+
+// СКРОЛИНГ К ЯКОРЯМ
+
+$('a[href^="#"], *[data-href^="#"]').on('click', function(e) {
+	e.preventDefault();
+	var t = 500;
+	var d = $(this).attr('data-href') ? $(this).attr('data-href') : $(this).attr('href');
+	$('html,body').stop().animate({ scrollTop: $(d).offset().top }, t);
+});
+
+// СКРОЛИНГ К ЯКОРЯМ

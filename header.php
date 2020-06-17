@@ -27,16 +27,16 @@
                     <a href="#" class="navigation_text">Главная</a>
                   </li>
                   <li class="navigation_item">
-                    <a href="#" class="navigation_text">Преимущества</a>
+                    <a href="#advantages" class="navigation_text">Преимущества</a>
                   </li>
                   <li class="navigation_item">
-                    <a href="#" class="navigation_text">Галерея</a>
+                    <a href="#gallery" class="navigation_text">Галерея</a>
                   </li>
                   <li class="navigation_item">
-                    <a href="#" class="navigation_text">Заказать</a>
+                    <a href="#calc" class="navigation_text">Заказать</a>
                   </li>
                   <li class="navigation_item">
-                    <a href="#" class="navigation_text">Отзывы</a>
+                    <a href="#rew" class="navigation_text">Отзывы</a>
                   </li>
                   <li class="navigation_item">
                     <a href="#" class="navigation_text">8 000 000 00 00 </a>
