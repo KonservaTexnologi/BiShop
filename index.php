@@ -69,13 +69,14 @@ get_header();
                 </div>
                 <div class="advantages_items">
                   <div class="advantages_item">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/adv" alt="" class="adv_item_img" />
+                  <img src="<?php echo get_template_directory_uri() ?>/img/adv/1.png" alt="" class="adv_item_img" />
                     <div class="adv_item_text">
                       Вы сможете использовать <br />
                       мягкое стекло <span>как угодно</span> и <br />
                       <span>где угодно</span> !
                     </div>
                   </div>
+                  
                   <div class="advantages_item">
                     <img src="<?php echo get_template_directory_uri() ?>/img/adv/2.png" alt="" class="adv_item_img" />
                     <div class="adv_item_text">
@@ -114,6 +115,7 @@ get_header();
                       полностью оправдались»
                     </div>
                   </div>
+                  
                   <div class="rew_slider_items">
                     <img src="<?php echo get_template_directory_uri() ?>/img/rew/2.png" alt="" class="rew_slider_img" />
                     <div class="rew_slider_txt">
