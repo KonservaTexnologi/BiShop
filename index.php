@@ -34,7 +34,7 @@ get_header();
 }
 </style>
 
-<article>
+<article >
 <div class="info">
             <div class="container">
               <div class="info_body">

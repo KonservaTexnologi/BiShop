@@ -24,3 +24,11 @@ function calc() {
 
 	t.innerText = parseInt(cost.toFixed(2)) + parseInt(del) + 'руб.';
 }
+
+	document.ondragstart = prohibit;//запрещаем перетаскивание
+	document.onselectstart = prohibit;//запрещаем выделение
+	document.oncontextmenu = prohibit;//запрещаем клик правой кнопкой
+		function prohibit() {
+			return false;//предотвращает все эти события
+		}
+	
