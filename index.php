@@ -1,54 +1,39 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>BISHOP-IT. RU</title>
+<?php
+get_header();
+?>
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <meta name="viewport" content="width=device-width" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="content">
-        <header>
-          <div class="header">
-            <div class="container">
-              <div class="header_body">
-                <div class="logo">
-                  BISHOP-IT.RU
-                </div>
-                <ul class="navigation">
-                  <li class="navigation_item">
-                    <a href="#" class="navigation_text">Главная</a>
-                  </li>
-                  <li class="navigation_item">
-                    <a href="#" class="navigation_text">Преимущества</a>
-                  </li>
-                  <li class="navigation_item">
-                    <a href="#" class="navigation_text">Галерея</a>
-                  </li>
-                  <li class="navigation_item">
-                    <a href="#" class="navigation_text">Заказать</a>
-                  </li>
-                  <li class="navigation_item">
-                    <a href="#" class="navigation_text">Отзывы</a>
-                  </li>
-                  <li class="navigation_item">
-                    <a href="#" class="navigation_text">8 000 000 00 00 </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </header>
+<style>
 
-        <article>
-          <div class="info">
+@font-face {
+  font-family: "Nova";
+  src: url(" <?php echo get_template_directory_uri() ?>/fonts/Proxima Nova bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ExtraNova";
+  src: url("<?php echo get_template_directory_uri() ?>/fonts/Proxima Nova Extrabold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+  .info::after{
+    content: "";
+    background-image: url("<?php echo get_template_directory_uri() ?>/img/info/Слой 7.png");
+  position: absolute;
+  width: 1038px;
+  height: 832px;
+  top: 70px;
+  right: 0px;
+  }
+
+  .buyTwo::after {
+  content: url("<?php echo get_template_directory_uri() ?>/img/Прямоугольник 10 копия 2.png");
+}
+</style>
+
+<article>
+<div class="info">
             <div class="container">
               <div class="info_body">
                 <div class="info_topText">
@@ -82,7 +67,7 @@
                 </div>
                 <div class="advantages_items">
                   <div class="advantages_item">
-                    <img src="/img/adv/1.png" alt="" class="adv_item_img" />
+                  <img src="<?php echo get_template_directory_uri() ?>/img/adv/1.png" alt="" class="adv_item_img" />
                     <div class="adv_item_text">
                       Вы сможете использовать <br />
                       мягкое стекло <span>как угодно</span> и <br />
@@ -90,14 +75,14 @@
                     </div>
                   </div>
                   <div class="advantages_item">
-                    <img src="/img/adv/2.png" alt="" class="adv_item_img" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/adv/2.png" alt="" class="adv_item_img" />
                     <div class="adv_item_text">
                       Жидкое стекло на стол – <span>100%</span> <br />
                       защита поверхности!
                     </div>
                   </div>
                   <div class="advantages_item">
-                    <img src="/img/adv/3.png" alt="" class="adv_item_img" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/adv/3.png" alt="" class="adv_item_img" />
                     <div class="adv_item_text">
                       Силиконовая скатерть – это <br />
                       <span>стиль</span> и
@@ -120,7 +105,7 @@
                 </div>
                 <div class="rew_slider">
                   <div class="rew_slider_items">
-                    <img src="/img/rew/1.png" alt="" class="rew_slider_img" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/rew/1.png" alt="" class="rew_slider_img" />
                     <div class="rew_slider_txt">
                       «Заказал силиконовую скатерть внучке на письменный стол в
                       этой компании. Пришло все вовремя, ожидания от товара
@@ -128,7 +113,7 @@
                     </div>
                   </div>
                   <div class="rew_slider_items">
-                    <img src="/img/rew/2.png" alt="" class="rew_slider_img" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/rew/2.png" alt="" class="rew_slider_img" />
                     <div class="rew_slider_txt">
                       «Заказ пришел быстро за 3 дня. Скатерть получила в хорошей
                       картонной упаковке. Она отлично вписалась в мой интерьер.
@@ -136,7 +121,7 @@
                     </div>
                   </div>
                   <div class="rew_slider_items">
-                    <img src="/img/rew/3.png" alt="" class="rew_slider_img" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/rew/3.png" alt="" class="rew_slider_img" />
                     <div class="rew_slider_txt">
                       «Получила скатерть за 5 дней. Вчера расстелила на стол,
                       проверила, все оказалось в норме как и обещал продавец.
@@ -154,13 +139,13 @@
                 <div class="gallery_topText">Галерея</div>
                 <div class="gallery_slider">
                   <div class="galley_slider_items">
-                    <img src="/img/gal/1.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/gal/1.png" alt="" />
                   </div>
                   <div class="galley_slider_items">
-                    <img src="/img/gal/2.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/gal/2.png" alt="" />
                   </div>
                   <div class="galley_slider_items">
-                    <img src="/img/gal/3.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/gal/3.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -277,7 +262,7 @@
                 <div class="easy_del_text">Удобная доставка</div>
                 <div class="easy_del_type">
                   <div class="del_cour">
-                    <img src="/img/del/cour.png" alt="" class="del_cour_img" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/del/cour.png" alt="" class="del_cour_img" />
                     <p class="del_cour_text">
                       Курьерская доставка по <br />
                       Москве - 300 руб. <br />
@@ -286,7 +271,7 @@
                   </div>
                   <div class="del_box">
                     <img
-                      src="/img/del/boxberry.png"
+                      src="<?php echo get_template_directory_uri() ?>/img/del/boxberry.png"
                       alt=""
                       class="del_cour_img"
                     />
@@ -305,7 +290,7 @@
                     <span>инстаграм</span> аккаунте
                   </p>
                   <div class="insta_img">
-                    <img src="/img/del/L1.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/img/del/L1.png" alt="" />
                   </div>
                   <div class="insta_a">
                     <a class="insta_a" href="#"> @инстаграм </a>
@@ -315,37 +300,9 @@
             </div>
           </div>
         </article>
-      </div>
+      
+        
+	
+<?php
 
-      <footer>
-        <div class="footer">
-          <div class="container">
-            <div class="footer_body">
-              <div class="ft">Контакты</div>
-              <div class="phone s"><span>тел.</span> 8 800 000 00 00</div>
-              <div class="contact">
-                <img src="/img/footer/v.png" alt="" />
-
-                <img src="/img/footer/w.png" alt="" />
-
-                <img src="/img/footer/i.png" alt="" />
-              </div>
-              <div class="adr s"><span>адрес</span> _______</div>
-              <div class="mail s"><span>почта</span>_______</div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-
-    <!-- Загружаем Jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Загружаем Слайдер -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <!-- Загружаем скрипты-->
-    <script src="/js/script.js"></script>
-  </body>
-</html>
+get_footer();

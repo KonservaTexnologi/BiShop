@@ -1,12 +1,17 @@
+/*!
+Theme Name: BiShop
+
+*/
+
 @font-face {
   font-family: "Nova";
-  src: url("/fonts/ProximaNova Bold.otf");
+  src: url("http://localhost/wordpress/wp-content/themes/BiShopWP/fonts/Proxima Nova bold.otf");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "ExtraNova";
-  src: url("/fonts/Proxima Nova Extrabold.otf");
+  src: url("http://localhost/wordpress/wp-content/themes/BiShopWP/fonts/Proxima Nova Extrabold.otf");
   font-weight: bold;
   font-style: normal;
 }
@@ -49,7 +54,6 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-family: "ExtraNova";
 }
 
 input,
@@ -98,6 +102,11 @@ h6 {
   font-weight: 400;
 }
 
+body {
+  font-family: "ExtraNova";
+  font-weight: bold;
+}
+
 .header {
   background-image: -moz-linear-gradient(
     -90deg,
@@ -132,37 +141,27 @@ h6 {
   color: #000231;
   text-align: center;
   font-weight: bold;
+  align-items: center;
+  width: 100%;
+  color: #000232;
 }
 
 .navigation:last-child {
   padding-right: 0px;
+  white-space: nowrap;
+}
+
+.navigation:first-child {
+  padding-left: 40px;
 }
 
 .navigation_item {
   padding-right: 50px;
 }
 
-.logo {
-  font-size: 40px;
-  color: #000231;
-  position: relative;
-}
-
-.himg {
-  background-image: url("/img/logo/Слой 6.png");
-  width: 98px;
-  height: 103px;
-  position: relative;
-}
-
-.ht {
-  position: absolute;
-}
-
 html,
 body {
   height: 100%;
-  font-family: "Nova", sans-serif;
   font-weight: bold;
   min-width: 1920px;
 }
@@ -196,16 +195,6 @@ body {
     rgb(188, 139, 94) 100%
   );
   position: relative;
-}
-
-.info::after {
-  content: "";
-  background-image: url("/img/info/Слой 7.png");
-  position: absolute;
-  width: 1038px;
-  height: 832px;
-  top: 70px;
-  right: 0px;
 }
 
 .info_body {
@@ -591,6 +580,7 @@ body {
   color: #fff;
   font-family: "ExtraNova";
   font-size: 17px;
+  white-space: nowrap;
 }
 
 .select_length_input::-moz-placeholder {
@@ -613,7 +603,6 @@ body {
 }
 
 .select_width_input {
-  display: flex;
   border-radius: 10px;
   background: transparent !important;
   display: flex;
@@ -631,17 +620,19 @@ body {
   color: #fff;
   font-family: "ExtraNova";
   font-size: 17px;
+  max-width: 100px;
 }
 
 .select_width_input::-webkit-input-placeholder {
   color: #fff;
   font-family: "ExtraNova";
   font-size: 17px;
+  max-width: 100px;
 }
 
 .buy {
   display: flex;
-  margin-left: 145px;
+  margin-left: 80px;
 }
 
 .buyTwo {
@@ -650,10 +641,6 @@ body {
   font-family: "ExtraNova";
   color: #000232;
   position: relative;
-}
-
-.buyTwo::after {
-  content: url("/img/Прямоугольник 10 копия 2.png");
 }
 
 .select_width_input {
@@ -695,6 +682,7 @@ body {
   color: #fff;
   font-family: "ExtraNova";
   font-size: 17px;
+  justify-content: start;
 }
 
 .input_calc_number::-webkit-input-placeholder {
@@ -923,10 +911,6 @@ body {
 
 .adr {
   padding-bottom: 50px;
-}
-
-.burger_menu {
-  display: none;
 }
 
 /* FOOTTER */
