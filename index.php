@@ -24,7 +24,9 @@ get_header();
   width: 1038px;
   height: 832px;
   top: 70px;
-  right: 0px;
+  right: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
   .buyTwo::after {
@@ -67,7 +69,7 @@ get_header();
                 </div>
                 <div class="advantages_items">
                   <div class="advantages_item">
-                  <img src="<?php echo get_template_directory_uri() ?>/img/adv/1.png" alt="" class="adv_item_img" />
+                  <img src="<?php echo get_template_directory_uri() ?>/img/adv" alt="" class="adv_item_img" />
                     <div class="adv_item_text">
                       Вы сможете использовать <br />
                       мягкое стекло <span>как угодно</span> и <br />
