@@ -35,12 +35,12 @@ function calc() {
 
 // ЗАПРЕТ ВЫДЕЛЕНИЯ
 
-document.ondragstart = prohibit; //запрещаем перетаскивание
-document.onselectstart = prohibit; //запрещаем выделение
-document.oncontextmenu = prohibit; //запрещаем клик правой кнопкой
-function prohibit() {
-	return false; //предотвращает все эти события
-}
+//document.ondragstart = prohibit; //запрещаем перетаскивание
+//document.onselectstart = prohibit; //запрещаем выделение
+//document.oncontextmenu = prohibit; //запрещаем клик правой кнопкой
+//function prohibit() {
+//return false; //предотвращает все эти события
+//}
 
 // ЗАПРЕТ ВЫДЕЛЕНИЯ
 

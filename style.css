@@ -815,6 +815,8 @@ body {
 .contact img {
 	padding-right: 30px;
 	padding-bottom: 20px;
+	width: 64px;
+	flex: 0 0 auto;
 }
 
 .adr {
