@@ -1,18 +1,35 @@
-// SLIDER
+// ИЗМЕНЕНИЕ СЛАЙДЕРА ПРИ 1559pxfunction checkWidth() {
+
+var infinity;
+var slidesToShow;
+var slidesToScroll;
+
+function checkWidth() {
+	var windowWidth = $('.rew').innerWidth();
+
+	if (windowWidth > 1765) {
+		infinity = true;
+		slidesToShow = 3;
+		slidesToScroll = 3;
+	} else {
+		infinity = true;
+		slidesToShow = 1;
+		slidesToScroll = 1;
+	}
+}
+checkWidth(); // проверит при загрузке страницы
 
 $('.rew_slider').slick({
-	infinite: true,
-	slidesToShow: 3,
-	slidesToScroll: 3
+	infinite: infinity,
+	slidesToShow: slidesToShow,
+	slidesToScroll: slidesToScroll
 });
 
-$('.gallery_slider').slick({
-	infinite: true,
-	slidesToShow: 3,
-	slidesToScroll: 3
+$(window).resize(function() {
+	checkWidth(); // проверит при изменении размера окна клиента
 });
 
-// SLIDER
+// ИЗМЕНЕНИЕ СЛАЙДЕРА ПРИ 1559px
 
 // КАЛЬКУЛЯТОР
 

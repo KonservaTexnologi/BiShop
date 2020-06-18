@@ -26,7 +26,7 @@ get_header();
   top: 70px;
   right: 0%;
   background-repeat: no-repeat;
-  background-size: cover;
+  
 
   }
 

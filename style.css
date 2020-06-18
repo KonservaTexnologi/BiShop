@@ -352,6 +352,9 @@ body {
 }
 
 .rew_slider {
+	max-width: 1560px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .rew_slider:last-child {
@@ -827,4 +830,15 @@ body {
 
 .iob {
 	color: #fff;
+}
+
+@media (max-width: 1765px) {
+	.rew_slider {
+		max-width: 470px;
+		margin: 0 auto;
+		justify-content: center;
+		justify-self: center;
+		align-items: center;
+		display: flex;
+	}
 }
