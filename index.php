@@ -116,6 +116,14 @@ get_header();
                       полностью оправдались»
                     </div>
                   </div>
+                  <div class="rew_slider_items">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/rew/1.png" alt="" class="rew_slider_img" />
+                    <div class="rew_slider_txt">
+                      «Заказал силиконовую скатерть внучке на письменный стол в
+                      этой компании. Пришло все вовремя, ожидания от товара
+                      полностью оправдались»
+                    </div>
+                  </div>
                   
                   <div class="rew_slider_items">
                     <img src="<?php echo get_template_directory_uri() ?>/img/rew/2.png" alt="" class="rew_slider_img" />

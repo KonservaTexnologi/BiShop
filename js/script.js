@@ -54,20 +54,21 @@ $('a[href^="#"], *[data-href^="#"]').on('click', function(e) {
 
 // СКРОЛИНГ К ЯКОРЯМ
 
-
 // вкл выкл кнопки
 //var i = 1;
 //document.getElementById('we_need_disable_this').disabled = true;
 // function able() {
 //	 document.getElementById('we_need_disable_this').disabled = false;
 
-	 
-	 
-  
+// ПРОВЕРКА НА АКТИВНОСТЬ
+
 //}
 function agreeForm(f) {
 	// Если поставлен флажок, снимаем блокирование кнопки
-	if (f.agree.checked) f.we_need_disable_this.disabled = 0
-	// В противном случае вновь блокируем кнопку
-	else f.we_need_disable_this.disabled = 1
+	if (f.agree.checked) f.we_need_disable_this.disabled = 0;
+	else
+		// В противном случае вновь блокируем кнопку
+		f.we_need_disable_this.disabled = 1;
 }
+
+// ПРОВЕРКА НА АКТИВНОСТЬ
