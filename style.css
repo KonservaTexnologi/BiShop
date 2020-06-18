@@ -188,7 +188,6 @@ body {
 	);
 	background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(232, 209, 105) 0%, rgb(188, 139, 94) 100%);
 	position: relative;
-
 }
 
 .info_body {
@@ -378,7 +377,8 @@ body {
 }
 
 .rew_slider_img {
-	max-width: 430px;
+	min-width: 430px;
+	margin: 0 auto;
 }
 
 /* ОТЗЫВЫ */
