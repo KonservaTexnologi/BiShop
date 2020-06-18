@@ -167,7 +167,6 @@ html,
 body {
 	height: 100%;
 	font-weight: bold;
-	min-width: 1920px;
 }
 
 .container {
@@ -189,6 +188,7 @@ body {
 	);
 	background-image: -ms-radial-gradient(50% 50%, circle closest-side, rgb(232, 209, 105) 0%, rgb(188, 139, 94) 100%);
 	position: relative;
+
 }
 
 .info_body {

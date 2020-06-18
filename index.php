@@ -27,6 +27,7 @@ get_header();
   right: 0%;
   background-repeat: no-repeat;
   background-size: cover;
+
   }
 
   .buyTwo::after {
