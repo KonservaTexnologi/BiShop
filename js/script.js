@@ -27,7 +27,6 @@ function calc() {
 
 	var cost = length * width * h;
 	var t = document.getElementById('cost');
-
 	t.innerText = parseInt(cost.toFixed(2)) + parseInt(del) + 'руб.';
 }
 
@@ -54,3 +53,21 @@ $('a[href^="#"], *[data-href^="#"]').on('click', function(e) {
 });
 
 // СКРОЛИНГ К ЯКОРЯМ
+
+
+// вкл выкл кнопки
+//var i = 1;
+//document.getElementById('we_need_disable_this').disabled = true;
+// function able() {
+//	 document.getElementById('we_need_disable_this').disabled = false;
+
+	 
+	 
+  
+//}
+function agreeForm(f) {
+	// Если поставлен флажок, снимаем блокирование кнопки
+	if (f.agree.checked) f.we_need_disable_this.disabled = 0
+	// В противном случае вновь блокируем кнопку
+	else f.we_need_disable_this.disabled = 1
+}

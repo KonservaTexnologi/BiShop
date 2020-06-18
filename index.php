@@ -250,10 +250,10 @@ get_header();
                     (на следующий день)
                   </p>
                   <p class="cost">Стоимость: <span id="cost">________</span></p>
-                  <button class="get_order">Оформить заказ</button> <br />
+                  <button disabled id = "we_need_disable_this" class="get_order">Оформить заказ</button> <br />
                   <div class="dagree">
-                    <input type="checkbox" name="agree" id="agree" />
-                    <label for="agree" class="agree"
+                    <input type="checkbox" onclick="agreeForm(this.form)" name="agree" id="agree" />
+                    <label  for="agree" class="agree"
                       >Согласен на обработку персональных данных</label
                     >
                   </div>
