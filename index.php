@@ -5,7 +5,7 @@ get_header();
 <style>
 
 @font-face {
-  font-family: "Nova";
+  font-family: "Novai";
   src: url(" <?php echo get_template_directory_uri() ?>/fonts/Proxima Nova bold.otf");
   font-weight: bold;
   font-style: normal;
