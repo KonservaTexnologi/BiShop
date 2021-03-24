@@ -1,5 +1,5 @@
 <footer>
-        <div class="footer">
+        <div class="footerr">
           <div class="container">
             <div class="footer_body">
               <div class="ft">Контакты</div>
